@@ -22,10 +22,6 @@ services:
       mynetwork:
         ipv4_address: 172.20.0.3
 
-#volumes:
-#  flask_app:
-#  equivs_api:
-
 networks:
   mynetwork:
     enable_ipv6: false
